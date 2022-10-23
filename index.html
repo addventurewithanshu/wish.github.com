@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <!--Outer start-->
+        
+        <!--Header-->
+        <div class="container-fluid ">
+        <div class="row bg-dark fixed-top">
+            <div class="col-sm-3 text-end">
+                <span style="font-size:30px; color: gold; font-family: 'monotype coursiva';">Deepwali Wishes</span>
+                <br/>
+                <span style= "color: white; font-family: 'monotype coursiva';">By</span> <span style= "color:yellow;  font-family: 'monotype coursiva';">Maddeshiya<i class="fa-solid fa-star"></i></span>
+            </div>
+            <div class="col-sm-4 my-3 placeholder_1">
+                <form>
+                    <input type="text" placeholder="search for more & more deepwali gift" class="form-control " />
+                </form>
+            </div>
+            <div class="col-sm-2 my-3 fs-5">
+                <div class="btn btn-light w-100"><a href="contact.html" style="text-decoration:none; color:goldenrod;">contact</a></div>
+            </div>
+            
+            <div class="col-sm-3 my-3">
+                
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <span style="color:goldenrod;" class="fs-5">More</span>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Not available</a></li>
+                      <li><a class="dropdown-item" href="#">Not available</a></li>
+                      <li><a class="dropdown-item" href="#">Not available</a></li>
+                    </ul>
+                  </li>
+          
+            </div>
+            
+        </div>
+        </div>
+        <!--background image-->
+        <div class="container-fluid p-0">
+
+          <div class="row" id="bgimg">
+            <div class="col-sm-12" id="bg_inner" >
+              
+             <div class="btn_order">
+                <p class="wish" style="color:goldenrod; font-size: 30px; font-family: monotype coursiva; margin-left: 15%;"></p>
+                <script>
+                        new Typed('.wish',{  
+                            strings: ['The Happy Deepwali'],
+                            typeSpeed: 130,
+                            backSpeed: 130,
+                            loop: true,
+                    });
+                </script>
+                <p class="qutoes" style="color:goldenrod; font-size: 18px; font-family:monotype coursiva ; margin-left: -5%;"></p>
+                <script>
+                    new Typed('.qutoes',{  
+                        strings: ['May millions of lamps illuminate your life with endless prosperity,health and wealth forever.'],
+                        typeSpeed: 50,
+                        backSpeed: 50,
+                        loop: true,
+                });
+            </script>
+            <br>
+            <a href="comment.html"><button class="btn_bg rounded-5">Comment Box</button></a>
+            <a href="gift.html"><button class="btn_bg rounded-5">Gift For You</button></a>
+             </div>
+            </div>
+          </div>
+
+        </div>
+
+            
+        <!--Outer End-->
+    </div>
+  </body>
+    <script type="text/javascript" src="./js/script.js"></script>
+</html>

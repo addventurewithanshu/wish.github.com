@@ -1,0 +1,84 @@
+.seller a{
+    text-decoration: none;
+    color: goldenrod;
+}
+.seller{
+    color: goldenrod;
+}
+
+.smi{
+    list-style-type: none;
+    
+}
+.smi li{
+    display: inline-block;
+    background-color: white;
+    color:red;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 50%;
+    transition: transform 0.8s;
+}
+.smi li a{
+    color: goldenrod;
+    
+}
+.smi li:hover{
+    transform: scale(1.2);
+}
+
+.smi h5 a{
+    color:white;
+    text-decoration: none;
+}
+#bgimg{
+    background-image: url('../Images/single\(deep\).jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#bg_inner{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.btn_order{
+    margin-top: 350px;
+    margin-left: 30%;
+}
+.btn_bg{
+    padding: 10px;
+    width: 250px;
+}
+.btn_bg:hover{
+    background-color: goldenrod;
+    transition: all 0.3s ease-in;
+}
+.login{
+    height: 300px;
+    width: 100%;
+    padding-top: 80px;
+}
+.success{
+    background-color: lightgreen;
+    color: green;
+    border: 2px solid green;
+    padding: 10px;
+    width: 100%;
+}
+.error{
+    background-color: pink;
+    color: red;
+    border: 2px solid red;
+    padding: 2px;
+    width: 100%;
+}
+#bgimg1{
+    background-image: url('../Images/gift2.webp');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#bg_inner1{
+    background-color: rgba(0, 0, 0, 0.5);
+}
